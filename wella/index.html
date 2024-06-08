@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+     h2{
+      width: fit-content;
+      margin: 20px auto;
+      
+     }
+      form{
+    width: 50%;
+        border-radius: 7px;
+        margin: auto;
+        display: flex;
+        background-color: aliceblue;
+        flex-direction: column;
+        padding: 30px 10px;
+        align-items: center;
+         /* text-align: center; */
+}
+form div{
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+}
+form div input{
+  width: 85%
+}
+form div label{
+  margin-top: 10px;
+  width: 15%;
+}
+input{
+    width: 80%;
+    padding:7px 3px;
+    margin: 5px auto;
+    border: none;
+    border-bottom: 1px solid grey;
+    /* border-radius: 7px; */
+}
+textarea{
+  width: 250px;
+  height: 150px;
+  padding:10px 20px;
+  outline: none;
+  margin-top: 20px;
+  margin: auto;
+}
+button{
+    background-color: blue;
+    padding: 10px ;
+    width: 100%;
+    color: white;
+    margin: auto;
+        border: none;
+}
+table{
+  width: 50%;
+  margin: auto;
+    border: 1px solid black;
+
+}
+td,th{
+  border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+th{
+  background-color: gray;
+  padding: 10px;
+}
+caption{margin-bottom: 20px;}
+</style>
+</head>
+<body>
+    <main>
+<h2>Wella School Frontend Assessment 1</h2>
+
+<!-- form -->
+    <form >
+    <div>   
+      <label for="username">Name:</label>   
+    <input type="text" id="username" placeholder="enter your fullname"  />
+</div>
+<div>
+  <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="email address" required />
+
+</div>
+<div>
+  <label for="country">Country:</label>
+        <input  type="text" id="country" placeholder="Country" required />
+
+</div>
+<div>
+  <label for="number">Phone:</label>
+        <input type="tel" id="number" placeholder="phone number" required />
+
+</div>
+<div>
+<label for="password">Password:</label>
+          <input type="password" id="pwd" placeholder="password" required />
+
+</div>    
+<textarea name="message" id="message">your message</textarea>
+ 
+    </form>
+    <!-- video -->
+<video controls style="width: 70%; height: 400px; margin:20px auto;" src="https://youtu.be/G3e-cpL7ofc?si=tCJ-yUDJUe4YXezb"></video>
+<p>Click <a href="video.html">here</a> to watch</p>
+  <!-- table -->
+<table>
+<caption>A table for the submission of Wella school assessment 1</caption>
+<tr>
+  <th>S/N</th>
+  <th>Action</th>
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Age</th>  
+  <th>State of origin</th>
+
+
+</tr>
+<tr>
+  <td>1</td>
+    <td><button>Singing</button></td>
+  <td>Blessing</td>
+  <td>John</td>
+  <td>22</td>
+  <td>Delta</td>
+</tr>
+<tr>
+  <td>2</td>
+      <td><button>Reading</button></td>
+  <td> Yusuff</td>
+  <td> Muhammad </td>
+  <td>22</td>
+    <td>Kano</td>
+
+</tr>
+<tr>
+  <td>3</td>
+        <td><button>Jumping</button></td>
+    <td> Oluwaseyi</td>
+    <td>Adekunle</td>
+  <td>24</td>
+    <td>Oyo</td>
+
+</tr>
+<tr>
+  <td>4</td>
+        <td><button>Praying</button></td>
+    <td> Halima</td>
+    <td>Dahunsi</td>
+  <td>25</td>  
+    <td>Osun</td>
+
+</tr>
+<tr>
+    <td>5</td>
+        <td><button>Reading</button></td>
+<td>Abraham</td>
+  <td>Micheal</td>
+  <td>22</td>
+    <td>Imo</td>
+
+</tr>
+</table>
+<table>
+<caption>A table for the submission of Wella school assessment 1</caption>
+<tr>
+  <th>S/N</th>
+  <th>Action</th>
+  <th>First Name</th>
+  <th>Last Name</th>
+  <th>Age</th>
+</tr>
+<tr>
+  <td>1</td>
+    <td><button>Singing</button></td>
+  <td>Blessing</td>
+  <td>John</td>
+  <td>22</td>
+</tr>
+<tr>
+  <td>2</td>
+      <td><button>Reading</button></td>
+  <td> Yusuff</td>
+  <td> Muhammad </td>
+  <td>22</td>
+</tr>
+<tr>
+  <td>3</td>
+        <td><button>Jumping</button></td>
+    <td> Oluwaseyi</td>
+    <td>Adekunle</td>
+  <td>24</td>
+  
+</tr>
+<tr>
+  <td>4</td>
+        <td><button>Praying</button></td>
+    <td> Halima</td>
+    <td>Dahunsi</td>
+  <td>25</td>  
+</tr>
+<tr>
+    <td>5</td>
+        <td><button>Reading/button></td>
+<td>Abraham</td>
+  <td>Micheal</td>
+  <td>22</td>
+</tr>
+</table>
+    </main>
+  </body>
+  </html>
